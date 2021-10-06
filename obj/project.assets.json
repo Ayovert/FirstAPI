@@ -5587,28 +5587,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/ayobamiwalletafrica/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\AYOBAMI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo/APIDemo.csproj",
+      "projectUniqueName": "C:\\Users\\AYOBAMI\\Documents\\github\\firstAPI\\APIDemo.csproj",
       "projectName": "APIDemo",
-      "projectPath": "/Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo/APIDemo.csproj",
-      "packagesPath": "/Users/ayobamiwalletafrica/.nuget/packages/",
-      "outputPath": "/Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo/obj/",
+      "projectPath": "C:\\Users\\AYOBAMI\\Documents\\github\\firstAPI\\APIDemo.csproj",
+      "packagesPath": "C:\\Users\\AYOBAMI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AYOBAMI\\Documents\\github\\firstAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/ayobamiwalletafrica/.config/NuGet/NuGet.Config"
+        "C:\\Users\\AYOBAMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.wallets.africa/nuget": {}
       },
@@ -5673,7 +5671,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

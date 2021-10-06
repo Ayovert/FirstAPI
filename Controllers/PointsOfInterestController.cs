@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using APIDemo.Models;
 using APIDemo.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 
 namespace APIDemo.Controllers
@@ -17,13 +20,23 @@ namespace APIDemo.Controllers
         private readonly IMailService _mailService;
         private readonly ICityInfoRepository _cityInfoRepository;
 
+        private readonly IStringLocalizer<PointsOfInterestController> _localizer;
+
+
         public PointsOfInterestController(ILogger<PointsOfInterestController> logger,
-            IMailService mailService, ICityInfoRepository cityInfoRepository)
+            IMailService mailService, ICityInfoRepository cityInfoRepository, IStringLocalizer<PointsOfInterestController> localizer)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
 
             _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
+
+            _localizer = localizer;
+
+
+
+            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("fr");
+
         }
 
         [HttpGet]
@@ -36,7 +49,7 @@ namespace APIDemo.Controllers
                 if(!cityExists)
                 {
                     _logger.LogInformation($"City with id {cityId} was not found when accessing points of interest");
-                    return NotFound("City not found");
+                    return NotFound("City not found" + _localizer["Thanks"]);
                 }
 
 

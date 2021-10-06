@@ -37,12 +37,14 @@ namespace APIDemo
                });*/
 
             services.AddControllersWithViews()
-                .AddNewtonsoftJson();
+                    .AddNewtonsoftJson();
+
             services.AddControllersWithViews(options =>
             {
                 options.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
             });
 
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
 
             services.AddMvc()
                 .AddDataAnnotationsLocalization();
@@ -62,6 +64,7 @@ namespace APIDemo
 
 #endif
             var connectionString = _configuration["connectionString:CityInfoDBConnectionString"];
+
             services.AddDbContext<CityInfoContext>(o =>
             {
                 o.UseSqlServer(connectionString);
