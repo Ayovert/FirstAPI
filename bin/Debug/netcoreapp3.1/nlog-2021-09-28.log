@@ -1,0 +1,12 @@
+2021-09-28 08:51:10.6586|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-28 08:51:10.9392|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-28 08:51:10.9944|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-28 08:51:11.0249|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-28 08:51:11.0275|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-28 08:51:11.6787|FATAL|APIDemo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 10
+2021-09-28 08:58:15.1926|INFO|APIDemo.Program|Initializing application ...
+2021-09-28 08:58:17.1369|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-28 08:58:17.1504|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-28 08:58:17.1818|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-28 08:58:17.2106|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-28 08:58:17.2135|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo

@@ -1,0 +1,143 @@
+2021-09-30 08:53:52.2305|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 08:53:54.2160|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 08:53:54.2300|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 08:53:54.2359|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 08:53:54.2393|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 08:53:54.2417|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 11:58:54.9893|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 11:58:57.2041|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 11:58:57.2211|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 11:58:57.2532|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 11:58:57.2819|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 11:58:57.2880|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:00:27.2704|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:00:29.5286|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:00:29.5664|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:00:29.5756|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:00:29.5788|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:00:29.5808|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:00:40.0519|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:00:42.2759|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:00:42.2881|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:00:42.2934|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:00:42.2961|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:00:42.2989|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:28:25.4778|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:28:27.6122|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:28:27.6494|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:28:27.6577|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:28:27.6608|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:28:27.6628|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:31:31.1081|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:31:33.1745|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:31:33.2135|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:31:33.2484|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:31:33.2514|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:31:33.2545|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:32:30.7382|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:32:33.0891|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:32:33.1323|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:32:33.1446|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:32:33.1490|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:32:33.1523|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:32:35.7398|INFO|APIDemo.Controllers.PointsOfInterestController|Mail was sent via APIDemo.Services.LocalMailService
+2021-09-30 12:40:26.2424|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:40:28.2143|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:40:28.2275|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:40:28.2549|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:40:28.2590|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:40:28.2861|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:40:58.8250|INFO|APIDemo.Controllers.PointsOfInterestController|Mail was sent via APIDemo.Services.LocalMailService
+2021-09-30 12:43:08.6933|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:43:10.8069|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 12:43:10.8195|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 12:43:10.8511|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 12:43:10.8749|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 12:43:10.8780|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 12:43:17.6003|INFO|APIDemo.Controllers.PointsOfInterestController|Mail was sent via APIDemo.Services.LocalMailService
+2021-09-30 12:44:46.1951|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:44:47.7610|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2021-09-30 12:44:47.8681|ERROR|APIDemo.Program|Application stopped because of exception
+2021-09-30 12:45:43.5924|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:45:45.4175|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2021-09-30 12:45:45.5229|ERROR|APIDemo.Program|Application stopped because of exception
+2021-09-30 12:46:30.0579|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 12:46:31.8713|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2021-09-30 12:46:31.9750|ERROR|APIDemo.Program|Application stopped because of exception
+2021-09-30 13:04:32.1206|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:04:34.3531|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:04:34.3690|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:04:34.4013|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:04:34.4307|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 13:04:34.4566|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:05:33.1044|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:05:35.1822|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:05:35.1958|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:05:35.2014|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:05:35.2039|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 13:05:35.2070|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:05:42.5211|INFO|APIDemo.Controllers.PointsOfInterestController|Mail was sent via APIDemo.Services.LocalMailService
+2021-09-30 13:06:36.2601|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:06:38.0718|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2021-09-30 13:06:38.1702|ERROR|APIDemo.Program|Application stopped because of exception
+2021-09-30 13:12:51.8475|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:12:53.4107|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2021-09-30 13:12:53.5079|ERROR|APIDemo.Program|Application stopped because of exception
+2021-09-30 13:24:57.1115|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:24:58.9777|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:24:59.0160|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:24:59.0483|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:24:59.0519|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2021-09-30 13:24:59.0546|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:36:35.9848|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:36:38.2610|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:36:38.2791|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:36:38.2875|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:36:38.2926|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2021-09-30 13:36:38.3205|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:41:34.8035|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:41:36.7564|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:41:36.7717|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:41:36.7778|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:41:36.8051|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 13:41:36.8329|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:41:42.4665|INFO|APIDemo.Controllers.PointsOfInterestController|Mail was sent via APIDemo.Services.LocalMailService
+2021-09-30 13:43:44.5067|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:43:46.3157|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:43:46.3274|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:43:46.3582|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:43:46.3618|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2021-09-30 13:43:46.3646|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 13:45:19.7303|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 13:45:21.7042|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 13:45:21.7187|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 13:45:21.7461|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 13:45:21.7499|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2021-09-30 13:45:21.7543|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 19:38:24.5069|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 19:38:27.1740|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 19:38:27.1856|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 19:38:27.1909|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 19:38:27.1932|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 19:38:27.1957|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 19:39:10.3397|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-30 19:40:28.7106|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 19:40:30.9592|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 19:40:30.9721|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 19:40:31.0034|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 19:40:31.0327|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 19:40:31.0597|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 19:44:09.0206|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-30 19:44:49.1469|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 19:44:51.4327|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 19:44:51.4736|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 19:44:51.5067|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 19:44:51.5105|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 19:44:51.5128|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo
+2021-09-30 19:45:16.9406|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-30 19:55:02.0502|INFO|APIDemo.Program|Initializing application ...
+2021-09-30 19:55:04.5782|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-09-30 19:55:04.5908|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1028
+2021-09-30 19:55:04.6217|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 19:55:04.6511|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 19:55:04.6948|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/ayobamiwalletafrica/Projects/APIDemo/APIDemo

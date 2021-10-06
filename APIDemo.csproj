@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="NLog.Web.AspNetCore" />
+    <None Remove="Microsoft.AspNetCore.JsonPatch" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Services\" />
+    <None Remove="Entities\" />
+    <None Remove="Context\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Resources\" />
+    <None Remove="Resources\Controllers\" />
+    <None Remove="Resources\Controllers\PointOfInterestController.fr" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Context\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Controllers\PointsofInterestController.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PointsofInterestController.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Controllers\CityController.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CityController.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\Controllers\PointsofInterestController.fr.Designer.cs">
+      <DependentUpon>PointsofInterestController.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Controllers\CityController.fr.Designer.cs">
+      <DependentUpon>CityController.fr.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
