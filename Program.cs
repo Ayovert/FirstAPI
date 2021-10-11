@@ -17,7 +17,7 @@ namespace APIDemo
     {
         public static void Main(string[] args)
         {
-            var logger = NLogBuilder
+            NLog.Logger logger = NLogBuilder
                     .ConfigureNLog("nlog.config")
                     .GetCurrentClassLogger();
 

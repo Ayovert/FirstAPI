@@ -15,9 +15,10 @@
     <None Remove="Context\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
-    <None Remove="Resources\" />
-    <None Remove="Resources\Controllers\" />
     <None Remove="Resources\Controllers\PointOfInterestController.fr" />
+    <None Remove="AutoMapper" />
+    <None Remove="Profiles\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -25,8 +26,7 @@
     <Folder Include="Services\" />
     <Folder Include="Entities\" />
     <Folder Include="Context\" />
-    <Folder Include="Resources\" />
-    <Folder Include="Resources\Controllers\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
@@ -38,23 +38,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="Resources\Controllers\PointsofInterestController.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>PointsofInterestController.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Controllers\CityController.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CityController.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Resources\Controllers\PointsofInterestController.fr.Designer.cs">
-      <DependentUpon>PointsofInterestController.fr.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\Controllers\CityController.fr.Designer.cs">
-      <DependentUpon>CityController.fr.resx</DependentUpon>
-    </Compile>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
 </Project>

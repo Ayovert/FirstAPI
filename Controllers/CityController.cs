@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using APIDemo.Entities;
 using APIDemo.Models;
 using APIDemo.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIDemo.Controllers
@@ -12,32 +14,35 @@ namespace APIDemo.Controllers
     public class CityController: ControllerBase
     {
         private readonly ICityInfoRepository _cityInfoRepository;
+        private readonly IMapper _mapper;
 
-        public CityController(ICityInfoRepository cityInfoRepository)
+        public CityController(ICityInfoRepository cityInfoRepository, IMapper mapper)
         {
             _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
 
         [HttpGet]
         public IActionResult GetCities()
         {
-           var getCities = _cityInfoRepository.GetCities();
+            var getCities = _cityInfoRepository.GetCities();
 
-            var result = new List<CityWithoutPointOfInterestDTO>();
+           /*   var result = new List<CityWithoutPointOfInterestDTO>();
 
-            foreach( var city in getCities)
-            {
-                result.Add(new CityWithoutPointOfInterestDTO()
-                {
-                    Id = city.Id,
-                    Name = city.Name,
-                    Description = city.Description
-                });
-            }
+              foreach( var city in getCities)
+              {
+                  result.Add(new CityWithoutPointOfInterestDTO()
+                  {
+                      Id = city.Id,
+                      Name = city.Name,
+                      Description = city.Description
+                  });
+              }
 
 
-            return Ok(result);
+              return Ok(result);*/
+            return Ok(_mapper.Map<IEnumerable<CityWithoutPointOfInterestDTO>>(getCities));
 
         }
 
